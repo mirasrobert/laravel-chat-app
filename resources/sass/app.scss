@@ -1,0 +1,79 @@
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Nunito");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import "~bootstrap/scss/bootstrap";
+
+body .home-content {
+    overflow-y: hidden;
+}
+
+.chat-online {
+    color: #34ce57;
+}
+
+.chat-offline {
+    color: #e4606d;
+}
+
+.chat-messages {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 141.85px);
+    max-height: calc(100vh - 141.85px);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.chat-messages::-webkit-scrollbar {
+    width: 10px !important;
+}
+
+/* Track */
+.chat-messages::-webkit-scrollbar-track {
+    background: #f1f1f1 !important;
+}
+
+/* Handle */
+.chat-messages:-webkit-scrollbar-thumb {
+    background: #888 !important;
+}
+
+/* Handle on hover */
+.chat-messages::-webkit-scrollbar-thumb:hover {
+    background: #555 !important;
+}
+
+// 141.85
+
+.chat-message-left,
+.chat-message-right {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.chat-message-left {
+    margin-right: auto;
+}
+
+.chat-message-right {
+    flex-direction: row-reverse;
+    margin-left: auto;
+}
+.py-3 {
+    padding-top: 1rem !important;
+    padding-bottom: 1rem !important;
+}
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+.flex-grow-0 {
+    flex-grow: 0 !important;
+}
+.border-top {
+    border-top: 1px solid #dee2e6 !important;
+}
