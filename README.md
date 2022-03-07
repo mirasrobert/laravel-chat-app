@@ -1,4 +1,4 @@
-#Laravel React Chat App
+## Laravel React Chat App
 > Simple global chat app created in Laravel Websocket & React JS
 
 
